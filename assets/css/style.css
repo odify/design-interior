@@ -1,0 +1,196 @@
+/* Font: Lora/ Work sans
+Farbe: #2e2e2e / #fff / #000 / #1d2c2f  */
+
+body{
+    background-color: #2e2e2e;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora';
+}
+header{
+
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-image: url(../img/design-interior-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    width: 100%;
+
+}
+aside{
+    background-color: white;
+    text-align: center;
+    width: 54vw;
+}
+aside h1{
+    margin-top: 30%;
+    color: #000;
+    font-size: 3em;
+
+    font-family: 'Lora';
+}
+.navbar{
+    position: sticky;
+    top:0;
+    background-color:#2e2e2e;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar nav ul li{
+    
+    display:inline-block;
+    padding: 8px;
+    padding-left: 10%;
+    letter-spacing: 223;
+    
+}
+.navbar nav ul{
+    margin:0;
+    
+}
+.navbar nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+#section1 {
+    height: 90vh;
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.story {
+    margin: 2% 5%;
+}
+.story h2{
+    color: #fff;
+    font-family: 'Lora' ;
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 5px;
+}
+.story p {
+    color: #fff;
+    font-family: 'Lora' ;
+    font-size: 1.1em;
+    letter-spacing: 5px;
+    line-height: 1.5;
+}
+.story-img{
+
+    margin-left: 5%;
+}
+
+#section2 {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section2 figure img{
+    width: 100%;
+}
+#section2 figure figcaption{
+    text-align: center;
+    color: rgb(128, 128, 128);
+    font-size: 1.5em;
+}
+.sec2img {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+#section2 h2 {
+    margin-top: 10%;
+    font-size: 4em;
+    font-weight: 300;
+    color: #fff;
+}
+#section2 p {
+
+
+    font-family: 'Work Sans';
+    margin-top: 1%;
+    font-size: 1.5em;
+    width: 70%;
+    padding-left: 10%;
+    letter-spacing:1px;
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 5%;
+
+}
+
+#contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90vh;
+    background-color: rgb(38, 38, 38);
+    
+    justify-items: center;
+    align-items: center;
+}
+#contact label{
+    font-size: 2em;
+    color:#fff;
+}
+.contact-text {
+    width: 80%;
+    color:#fff;
+
+}
+#name {
+    width: 100%;
+    font-size: 1.2em;
+}
+#email {
+    width: 100%;
+    font-size: 1.2em;
+}
+.contact-text h2 {
+    font-size: 3em;
+}
+.contact-text p {
+    font-size: 1.5em;
+    word-spacing: 5px;
+}
+
+.info-form input[type=submit] {
+    height: 3%;
+    width: 15%;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+footer {
+    height: 10vh;
+    background-color:#2e2e2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+footer h2 {
+    margin: 0;
+    color:#fff;
+}
+.navi li{
+    display: inline;
+}
+.navi li a {
+    font-family: 'Work Sans';
+    text-decoration: none;
+    padding-left: 5vw;
+    color:#fff;
+}
